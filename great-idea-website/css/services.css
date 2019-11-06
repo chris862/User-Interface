@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -65,18 +61,23 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* css reset */
 
 body {
-	width: 90%;
-	margin: auto;
+  background-image: url(https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2091&q=80);
+  color: white;
+  width: 90%;
+  margin: auto;
+  border: 5px solid white;
 }
 
 header {
 	text-align: center;
 	width: 100%;
 	padding: 1%;
-	margin: 1% 1% 1% 0%;
+	margin: 0% 1% 1% 0%;
+  background: white;
+  height: 7%;
 }
 
 nav {
@@ -93,105 +94,83 @@ nav a {
 	width: 5%;
 }
 
-.logo {
-	display: inline-block;
-	width: 23%;
-	padding-bottom: 2%;
-}
-
 .banner {
-	width: 100%;
-	margin: 1%;
-	padding: 4%;
-}
-
-.inovation-box {
-	display: inline-block;
-	width: 40%;
-	margin: 4%;
+  width: 90%;
+  text-align: center;
+  margin: 5%;
+  background: rgb(120,120,120, .9);
 }
 
 h1 {
-	font-size: 5em;
-	text-align: center;
+  font-size: 4em;
+  color: white;
 }
 
-h6 {
-	margin: auto;
-	text-align: center;
-	padding: 1% 4% 1% 4%;
-	border: 1px solid black;
-	width: 40%;
+row1 {
+  width: 90%;
+  height: 20%;
+
 }
 
-.banner-img {
-	display: inline-block;
-	width: 40%;
-	margin: 4%;
+.service-1 {
+  display: inline-block;
+  width: 40%;
+  background: rgb(120,120,120, .9);
+  margin: 2%;
+  padding: 2%;
 }
 
-#content-row1 {
-	width: 100%;
-	margin: 2%;
+.service-2 {
+  display: inline-block;
+  width: 40%;
+  background: rgb(120,120,120, .9);
+  margin: 2%;
+  padding: 2%;
 }
 
-.features {
-	display: inline-block;
-	width: 45%;
-	padding-right: 2%;
+row2 {
+  width: 90%;
+  height: 20%;
 }
 
-.about {
-	display: inline-block;
-	width: 45%
+.service-3 {
+  display: inline-block;
+  width: 40%;
+  background: rgb(120,120,120, .9);
+  margin: 2%;
+  padding: 2%;
 }
 
-#content-row2 {
-	width: 100%;
-	align-items: center;
+.service-4 {
+  display: inline-block;
+  width: 40%;
+  background: rgb(120,120,120, .9);
+  margin: 2%;
+  padding: 2%;
 }
 
-.middle-img {
-	display: inline-block;
-	width: 90%;
-	margin: 2%;
+row3 {
+  width: 90%;
+  height: 20%;
 }
 
-#content-row3 {
-	width: 90%;
-	margin: 2%;
+.service-5 {
+  display: inline-block;
+  width: 40%;
+  background: rgb(120,120,120, .9);
+  margin: 2%;
+  padding: 2%;
 }
 
-.services {
-	display: inline-block;
-	width: 30%;
-	margin: 1%;
+.service-6 {
+  display: inline-block;
+  width: 40%;
+  background: rgb(120,120,120, .9);
+  margin: 2%;
+  padding: 2%;
 }
 
-.product {
-	display: inline-block;
-	width: 30%;
-	margin: 1%;
-}
-
-.vision {
-	display: inline-block;
-	width: 30%;
-	margin: 1%;
-}
-
-.contact {
-	display: inline-block;
-	width: 90%;
-	margin: 2%;
-}
-
-footer {
-	text-align: center;
-	margin: 5%;
-	padding: 0% 10% 10% 10%;
-}
-
-hr {
-	border-color: black;
+.main-container {
+  margin: 0 auto;
+  border: 1px solid white;
 }

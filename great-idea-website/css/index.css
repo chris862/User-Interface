@@ -28,6 +28,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
 	line-height: 1;
 }
@@ -69,18 +71,123 @@ body {
 	width: 90%;
 	margin: auto;
 }
-a {
+
+header {
+	text-align: center;
+	width: 100%;
+	padding: 1%;
+	margin: 1% 1% 1% 0%;
+}
+
+nav {
+	display: inline-block;
+	padding: 2%;
+	margin: auto;
+	width: 75%;
+	float: left;
+}
+nav a {
 	text-decoration: none;
+	padding-right: 6%;
+	color: gray;
+	width: 5%;
 }
 
-h1 {
-	font-size: 4em;
-}
-
-h6 {
-	font-size: 1em;
+.logo {
+	display: inline-block;
+	width: 23%;
+	padding-bottom: 2%;
 }
 
 .banner {
+	width: 100%;
+	margin: 1%;
+	padding: 4%;
+}
+
+.inovation-box {
 	display: inline-block;
+	width: 40%;
+	margin: 4%;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+h6 {
+	margin: auto;
+	text-align: center;
+	padding: 1% 4% 1% 4%;
+	border: 1px solid black;
+	width: 40%;
+}
+
+.banner-img {
+	display: inline-block;
+	width: 40%;
+	margin: 4%;
+}
+
+#content-row1 {
+	width: 100%;
+	margin: 2%;
+}
+
+.features {
+	display: inline-block;
+	width: 45%;
+	padding-right: 2%;
+}
+
+.about {
+	display: inline-block;
+	width: 45%
+}
+
+#content-row2 {
+	width: 100%;
+	align-items: center;
+}
+
+.middle-img {
+	display: inline-block;
+	width: 90%;
+	margin: 2%;
+}
+
+#content-row3 {
+	width: 90%;
+	margin: 2%;
+}
+
+.services {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+}
+
+.product {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+}
+
+.vision {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+}
+
+.contact {
+	display: inline-block;
+	width: 90%;
+	margin: 2%;
+}
+
+footer {
+	text-align: center;
+	margin: 5%;
+	padding: 0% 10% 10% 10%;
 }

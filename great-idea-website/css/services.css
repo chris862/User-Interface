@@ -99,6 +99,7 @@ nav a {
   text-align: center;
   margin: 5%;
   background: rgb(120,120,120, .9);
+  border: 1px solid white;
 }
 
 h1 {
@@ -116,16 +117,18 @@ row1 {
   display: inline-block;
   width: 40%;
   background: rgb(120,120,120, .9);
-  margin: 2%;
+  margin: 2% 2% 2% 5.7%;
   padding: 2%;
+  border: 1px solid white;
 }
 
 .service-2 {
   display: inline-block;
   width: 40%;
   background: rgb(120,120,120, .9);
-  margin: 2%;
+  margin: 2% 2% 2% 5.7%;
   padding: 2%;
+  border: 1px solid white;
 }
 
 row2 {
@@ -137,16 +140,18 @@ row2 {
   display: inline-block;
   width: 40%;
   background: rgb(120,120,120, .9);
-  margin: 2%;
+  margin: 2% 2% 2% 5.7%;
   padding: 2%;
+  border: 1px solid white;
 }
 
 .service-4 {
   display: inline-block;
   width: 40%;
   background: rgb(120,120,120, .9);
-  margin: 2%;
+  margin: 2% 2% 2% 5.7%;
   padding: 2%;
+  border: 1px solid white;
 }
 
 row3 {
@@ -158,19 +163,31 @@ row3 {
   display: inline-block;
   width: 40%;
   background: rgb(120,120,120, .9);
-  margin: 2%;
+  margin: 2% 2% 2% 5.7%;
   padding: 2%;
+  border: 1px solid white;
 }
 
 .service-6 {
   display: inline-block;
   width: 40%;
   background: rgb(120,120,120, .9);
-  margin: 2%;
+  margin: 2% 2% 2% 5.7%;
   padding: 2%;
+  border: 1px solid white;
 }
 
 .main-container {
-  margin: 0 auto;
-  border: 1px solid white;
+  height: 60%;
+}
+
+.contact {
+	display: inline-block;
+	width: 90%;
+	margin: 2%;
+}
+
+footer {
+	text-align: center;
+  background: rgb(120,120,120, .9);
 }
